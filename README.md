@@ -1,1 +1,0 @@
-# commune-sejnane.github.io
