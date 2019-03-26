@@ -9,7 +9,7 @@
     $phone=@trim(stripslashes($_POST['phone'])); 
     $message=@trim(stripslashes($_POST['message'])); 
     $email_from=$email;
-    $email_to='company@domain.com';
+    $email_to='commune.sejnen@gmail.com';
     $body='Name: '.$name."\n\n".'Email: '.$email."\n\n".'Telephone: '.$phone."\n\n".'Message: '.$message;
     mail($email_to, 'Contact form', $body, 'From: <'.$email_from.'>');
     echo json_encode($status);

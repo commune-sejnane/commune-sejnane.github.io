@@ -29,26 +29,69 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
+
                 <a id="logo" class="pull-left" href="index.html"></a>
                 <div class="nav-collapse collapse pull-right">
                     <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Additional <i class="icon-angle-down"></i></a>
+						
+						
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> مدينة سجنان <i class="icon-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="citoyen/urbanisme.html">Error 404</a></li>
-                                <li><a href="privacy.html">Privacy Policy</a></li>
+                                <li><a href="./sejnan/fiche-identite.html">تعريف مدينة سجنان</a></li>
+                                <li><a href="./sejnan/histoire.html">تاريخ المدينة </a></li>
+								<li><a href="./sejnan/Institutions.html">  المؤسسات والمنشآت </a></li>
+								<li><a href="./sejnan/culture.html"> الثقافة و الترفيه </a></li>
+                                <li><a href="./sejnan/associations.html">العمل الجمعياتي </a></li>
+                                <li><a href="./sejnan/Monuments.html">المعالم الاثرية </a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="contact-us.html">Contact</a></li>
+                        
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> البلـــدية <i class="icon-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./commune/arrondissement.html">الدوائر البلـــدية</a></li>
+                                <li><a href="./commune/date-creation.html">تاريخ الإحداث </a></li>
+								<li><a href="./commune/service-commune.html">  المصالح البلدية </a></li>
+								<li><a href="./commune/loi-fondamentale.html"> القــانون الأســاسـي للبلديــات </a></li>
+                                <li><a href="reglement-interieur.html">النظام الداخلي النموذجي للمجالس البلدية </a></li>
+                            </ul>
+                        </li>
+						
+                        <li><a href="news.html">الأخبـــــــار</a></li>
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> البيانات المفتوحة <i class="icon-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./pvs/pv.html">محاضر جلسات بلدية</a></li>
+								<li><a href="./pvs/open-data.html">النفاذ الى المعلومة </a></li>
+								<li><a href="./pvs/budget.html">إعداد وتنفيذ الميزانية البلدية</a>/li>
+                            </ul>
+                        </li>
+						
+                        <li><a href="realisation.html">الإنجــــازات</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">الخدمات الإلكترونية <i class="icon-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./eservice/plaintes.html">الشكاوى</a></li>
+                                <li><a href="./eservice/dossier-electronique.html">ملفاتالكترونية </a></li>
+                            </ul>
+                        </li>
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> خدمات المواطنين <i class="icon-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+								<li><a href="./citoyen/urbanisme.html"> رخـص الـبناء و العمران  </a></li>
+                                <li><a href="./citoyen/etat-civil.html">الحالة المدنية</a></li>
+								<li><a href="./citoyen/légalisation-de-signature.html">التعريف بالإمضاء</a></li>
+								<li><a href="./citoyen/fiscalite.html">الجباية المحلية</a></li>
+								
+                            </ul>
+                        </li>
+                        <li><a href="contact-us.html">الاتصال</a></li>
                     </ul>        
                 </div>
             </div>
         </div>
-    </header>
+    </header> 
     <!-- /header -->
 
     <section class="no-margin">
@@ -58,42 +101,42 @@
     <section id="contact-page" class="container">
         <div class="row-fluid">
             <div class="span8">
-                <h4>Contact Form</h4>
+                <h4>: نموذج الاتصال</h4>
                 <div class="status alert alert-success" style="display: none"></div>
                 <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="contact-us.send.php">
                     <div class="row-fluid">
                         <div class="span5">
-                            <label>Full Name</label>
+                            <label>: الاسم و اللقب </label>
                             <input type="text" class="input-block-level" required="required" placeholder="Your Full Name" id="name" name="name">
-                            <label>Email Address</label>
+                            <label>: البريد الالكتروني</label>
                             <input type="text" class="input-block-level" required="required" placeholder="Your Email Address" id="email" name="email">
-                            <label>Telephone</label>
+                            <label>: الهاتف </label>
                             <input type="text" class="input-block-level" required="required" placeholder="Your Telephone" id="phone" name="phone">
                         </div>
                         <div class="span7">
-                            <label>Message</label>
+                            <label>: الرسالة</label>
                             <textarea name="message" id="message" required="required" class="input-block-level" rows="8"></textarea>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-large pull-right">Send Message</button>
+                    <button type="submit" class="btn btn-primary btn-large pull-right">: ارسل رسالتك </button>
                 </form>
             </div>
             <div class="span3">
                 <div style="height:60px"></div>
-                <h4>Vivamus posuere lectus vel lectus</h4>
-                <p>Phasellus vel arcu mi. In hac habitasse platea dictumst. Pellentesque sed felis velit.</p>
+                <h4>بلدية سجنان</h4>
+
                 <p>
-                    <i class="icon-map-marker pull-left"></i> Carrera 7 # 72-01<br>
-                    Bogotá D.C.,  Colombia
+                    <i class="icon-map-marker pull-left"></i> العنوان: شارع الحبيب بورقيبة<br>
+                    7010 سجنان ، بنزرت
                 </p>
                 <p>
-                    <i class="icon-envelope"></i> &nbsp;<a href="mailto:company@domain.com">company@domain.com</a>
+                    <i class="icon-envelope"></i> &nbsp;<a href="mailto:company@domain.com">commune.sejnen@gmail.com</a>
                 </p>
                 <p>
-                    <i class="icon-phone"></i> &nbsp;+123-456-7890
+                    <i class="icon-phone"></i> &nbsp;+72469128 <strong> : الهاتف </strong>
                 </p>
                 <p>
-                    <i class="icon-globe"></i> &nbsp;<a href="http://www.domain.com">www.domain.com</a>
+                    <i class="icon-globe"></i> &nbsp;<a href="https://commune-sejnane.github.io">https://commune-sejnane.github.io</a>
                 </p>
             </div>
         </div>
